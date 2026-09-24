@@ -73,6 +73,12 @@
       font-size: 1.1rem;
     }
     .nav-logo img { width: 28px; height: 28px; }
+    .logo-gradient {
+      background: linear-gradient(90deg, #2bd7ff, #49ffa8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
 
     .nav-links { display: flex; align-items: center; gap: 1rem; }
 
@@ -483,7 +489,7 @@
   <nav>
     <a href="#" class="nav-logo">
       <img src="images/favicon.svg" alt="OpenUsage" />
-      OpenUsage
+      <span>Open<span class="logo-gradient">Usage</span></span>
     </a>
     <div class="nav-links">
       <a href="#features" class="btn btn-ghost">Features</a>
@@ -653,7 +659,7 @@
   <footer>
     <div class="footer-logo">
       <img src="images/favicon.svg" alt="OpenUsage" />
-      OpenUsage
+      <span>Open<span class="logo-gradient">Usage</span></span>
     </div>
     <div class="footer-links">
       <a href="https://github.com/ellite/openusage" target="_blank" rel="noopener noreferrer">GitHub</a>
